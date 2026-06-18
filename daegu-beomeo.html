@@ -124,6 +124,11 @@
   .rev-text { font-size:13px; color:var(--gray); line-height:1.8; margin-bottom:14px; font-style:italic; }
   .rev-author { font-size:12px; color:var(--mint); font-weight:500; }
   @media(max-width:768px){ .reviews-grid2{grid-template-columns:1fr;} }
+
+  .float-insta { background:linear-gradient(45deg,#f09433,#dc2743,#bc1888); color:#fff; }
+  .float-kakaoid { background:#fff; color:#3C1E1E; border:1.5px solid #FEE500; cursor:pointer; }
+  .copy-toast { position:fixed; bottom:50%; left:50%; transform:translateX(-50%); background:var(--dark); color:#fff; padding:14px 28px; border-radius:50px; font-size:14px; z-index:300; opacity:0; transition:opacity 0.3s; pointer-events:none; }
+  .copy-toast.show { opacity:1; }
 </style>
 <link rel="canonical" href="https://www.women-massage.co.kr/daegu-beomeo.html">
 <script type="application/ld+json">
@@ -279,7 +284,7 @@
 <footer>
   <div>
     <div class="footer-brand">럭셔리</div>
-    <div class="footer-desc">여성 고객 전용 1:1 프라이빗 출장 홈케어<br>대구 · 구미 · 경산 · 김천 전 지역 24시간 예약<br>📞 010-2848-9817 · 💚 라인 daegu8</div>
+    <div class="footer-desc">여성 고객 전용 1:1 프라이빗 출장 홈케어<br>대구 · 구미 · 경산 · 김천 전 지역 24시간 예약<br>📞 010-2848-9817 · 💚 라인 daegu8<br>📷 인스타 @daegumsg___ · 💬 카톡ID daegu6</div>
   </div>
   <div class="footer-copy">© 2026 럭셔리 여성전용마사지. All rights reserved.</div>
 </footer>
@@ -287,7 +292,9 @@
 <div class="float-group">
   <a href="tel:01028489817" class="float-btn float-tel">📞 010-2848-9817</a>
   <a href="https://line.me/ti/p/~daegu8" target="_blank" class="float-btn float-line">💚 라인</a>
-  <a href="https://open.kakao.com/o/sWYHgzSh" target="_blank" class="float-btn float-kakao">💬 카카오톡</a>
+  <a href="https://www.instagram.com/daegumsg___" target="_blank" class="float-btn float-insta">📷 인스타</a>
+  <span class="float-btn float-kakaoid" onclick="copyKakaoId()">🔆 카톡ID 복사</span>
+  <a href="https://open.kakao.com/o/sWYHgzSh" target="_blank" class="float-btn float-kakao">💬 오픈카톡</a>
 </div>
 </body>
 </html>
